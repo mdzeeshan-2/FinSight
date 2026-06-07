@@ -86,25 +86,6 @@ npm install
 npm run dev
 ```
 
-App: http://localhost:5173
-
-## API Overview
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register + auto-create Savings account |
-| POST | `/api/auth/login` | Login |
-| GET | `/api/dashboard` | Dashboard stats |
-| GET/POST | `/api/accounts` | List / create accounts |
-| POST | `/api/transactions/deposit` | Deposit money |
-| POST | `/api/transactions/withdraw` | Withdraw money |
-| POST | `/api/transactions/transfer` | Transfer by account number |
-| POST | `/api/ai/chat` | Chat with Maya |
-
-## Deployment
-
-See [frontend/DEPLOYMENT.md](./frontend/DEPLOYMENT.md) for Railway + Vercel production setup.
-
 ## Author
 
 **Md Zeeshan** — [GitHub](https://github.com/mdzeeshan-2)
